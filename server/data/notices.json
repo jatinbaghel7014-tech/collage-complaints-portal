@@ -1,0 +1,29 @@
+[
+  {
+    "id": "NTC-001",
+    "title": "Scheduled Water Pipeline Maintenance in Hostel 2 & 4",
+    "category": "Maintenance",
+    "date": "2026-10-16",
+    "author": "Estate & Maintenance Office",
+    "content": "Water supply will remain suspended between 1:00 PM and 4:00 PM on Saturday due to installation of new overhead tank sensor valves.",
+    "isUrgent": false
+  },
+  {
+    "id": "NTC-002",
+    "title": "Strict Anti-Ragging Guidelines & 24x7 Flying Squad Notice",
+    "category": "Anti-Ragging",
+    "date": "2026-10-12",
+    "author": "Dean of Student Affairs & Chief Proctor",
+    "content": "Zero tolerance for ragging anywhere on campus or hostels. Direct complaints can be filed confidentially via this portal or 24x7 toll-free helpline: 1800-180-5522.",
+    "isUrgent": true
+  },
+  {
+    "id": "NTC-003",
+    "title": "High-Speed Wi-Fi Upgrade in Central Library & Study Halls",
+    "category": "IT Services",
+    "date": "2026-10-10",
+    "author": "Computer Center",
+    "content": "New Wi-Fi 6 access points have been installed in reading halls. Please log in using your student institute credentials.",
+    "isUrgent": false
+  }
+]

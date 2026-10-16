@@ -1,0 +1,254 @@
+[
+  {
+    "id": "CMP-2026-001",
+    "title": "Wi-Fi Router faulty in Boys Hostel Block-B (3rd Floor)",
+    "category": "Hostel",
+    "priority": "High",
+    "department": "IT & Network Services",
+    "location": "Hostel Block B, 3rd Floor Corridor",
+    "studentName": "Aman Verma",
+    "studentRoll": "2023CS204",
+    "studentEmail": "aman.verma@college.edu",
+    "isAnonymous": false,
+    "isPublic": true,
+    "upvotes": 18,
+    "upvotedBy": ["2023CS204", "2024EC110", "2024ME052"],
+    "status": "In Progress",
+    "description": "The Access Point on 3rd floor corridor has been blinking red since yesterday evening. Over 40 students across rooms 301 to 324 have no internet connectivity for online classes and assignment submissions.",
+    "assignedTo": {
+      "name": "Suresh Nair (Network Engineer)",
+      "phone": "+91 98112 34567"
+    },
+    "createdAt": "2026-10-15T09:30:00.000Z",
+    "updatedAt": "2026-10-15T14:20:00.000Z",
+    "timeline": [
+      {
+        "id": "t-1",
+        "timestamp": "2026-10-15T09:30:00.000Z",
+        "status": "Submitted",
+        "title": "Complaint Registered",
+        "note": "Complaint filed with High priority by Aman Verma.",
+        "by": "Aman Verma (Student)"
+      },
+      {
+        "id": "t-2",
+        "timestamp": "2026-10-15T11:00:00.000Z",
+        "status": "Under Review",
+        "title": "Reviewed by Warden Office",
+        "note": "Forwarded to IT & Network Services Helpdesk.",
+        "by": "Chief Warden Office"
+      },
+      {
+        "id": "t-3",
+        "timestamp": "2026-10-15T14:20:00.000Z",
+        "status": "In Progress",
+        "title": "Technician Dispatched",
+        "note": "Assigned to Suresh Nair. New Cisco AP has been issued from store. Installation underway.",
+        "by": "IT Dept Admin"
+      }
+    ],
+    "comments": [
+      {
+        "id": "c-1",
+        "author": "Rohit Kumar",
+        "role": "Student (Room 312)",
+        "text": "Same issue here, facing problems with project submission today! Please resolve soon.",
+        "timestamp": "2026-10-15T10:15:00.000Z"
+      },
+      {
+        "id": "c-2",
+        "author": "Suresh Nair",
+        "role": "Network Staff",
+        "text": "We are replacing the PoE switch on the 3rd floor. Should be up by 3:00 PM.",
+        "timestamp": "2026-10-15T14:30:00.000Z"
+      }
+    ],
+    "feedback": null,
+    "attachments": []
+  },
+  {
+    "id": "CMP-2026-002",
+    "title": "Water Cooler cooling unit broken & tap leaking in Main Library",
+    "category": "Infrastructure",
+    "priority": "Medium",
+    "department": "Estate & Maintenance",
+    "location": "Central Library, 1st Floor Reading Hall",
+    "studentName": "Priya Sharma",
+    "studentRoll": "2024EE102",
+    "studentEmail": "priya.s@college.edu",
+    "isAnonymous": false,
+    "isPublic": true,
+    "upvotes": 29,
+    "upvotedBy": ["2024EE102", "2023CS204"],
+    "status": "Resolved",
+    "description": "The water cooler near reading hall 2 is dispensing warm water and there is continuous water leakage on the floor which might cause someone to slip.",
+    "assignedTo": {
+      "name": "Ramesh Chandra (Plumber & HVAC)",
+      "phone": "+91 98450 12389"
+    },
+    "createdAt": "2026-10-14T11:00:00.000Z",
+    "updatedAt": "2026-10-15T16:00:00.000Z",
+    "timeline": [
+      {
+        "id": "t-1",
+        "timestamp": "2026-10-14T11:00:00.000Z",
+        "status": "Submitted",
+        "title": "Complaint Logged",
+        "note": "Registered by student.",
+        "by": "Priya Sharma"
+      },
+      {
+        "id": "t-2",
+        "timestamp": "2026-10-14T15:30:00.000Z",
+        "status": "In Progress",
+        "title": "Assigned to Maintenance",
+        "note": "Work order generated for tap replacement and compressor check.",
+        "by": "Estate Manager"
+      },
+      {
+        "id": "t-3",
+        "timestamp": "2026-10-15T16:00:00.000Z",
+        "status": "Resolved",
+        "title": "Issue Resolved",
+        "note": "Replaced faulty washer, fixed tap seal, and refilled coolant. Chilled water functional now.",
+        "by": "Ramesh Chandra"
+      }
+    ],
+    "comments": [],
+    "feedback": {
+      "rating": 5,
+      "comment": "Quick turnaround! The water is chilled now and floor is cleaned.",
+      "submittedAt": "2026-10-15T17:10:00.000Z"
+    },
+    "attachments": []
+  },
+  {
+    "id": "CMP-2026-003",
+    "title": "Hostel Mess Dinner Food Quality & Hygiene Concerns",
+    "category": "Mess",
+    "priority": "Urgent",
+    "department": "Mess & Food Committee",
+    "location": "Hostel Mess 1 (Dining Hall)",
+    "studentName": "Anonymous Student",
+    "studentRoll": "2024ME088",
+    "studentEmail": "student88@college.edu",
+    "isAnonymous": true,
+    "isPublic": true,
+    "upvotes": 47,
+    "upvotedBy": ["2024EE102", "2023CS204", "2024ME088"],
+    "status": "Under Review",
+    "description": "In yesterday's dinner (dal and paneer), the food was undercooked and chapattis were burnt. Many students complained of stomach ache. Immediate inspection by food safety committee requested.",
+    "assignedTo": {
+      "name": "Dr. K. Saxena (Mess Warden)",
+      "phone": "+91 97654 32190"
+    },
+    "createdAt": "2026-10-15T22:30:00.000Z",
+    "updatedAt": "2026-10-16T06:15:00.000Z",
+    "timeline": [
+      {
+        "id": "t-1",
+        "timestamp": "2026-10-15T22:30:00.000Z",
+        "status": "Submitted",
+        "title": "Anonymous Complaint Lodged",
+        "note": "Marked as Urgent priority.",
+        "by": "Anonymous"
+      },
+      {
+        "id": "t-2",
+        "timestamp": "2026-10-16T06:15:00.000Z",
+        "status": "Under Review",
+        "title": "Mess Committee Meeting Called",
+        "note": "Caterer summoned for emergency hygiene inspection at 11:00 AM.",
+        "by": "Dr. K. Saxena"
+      }
+    ],
+    "comments": [
+      {
+        "id": "c-1",
+        "author": "Arjun Patel",
+        "role": "Hostel Representative",
+        "text": "Mess committee will inspect grain stocks and oil quality today at 11 AM.",
+        "timestamp": "2026-10-16T06:45:00.000Z"
+      }
+    ],
+    "feedback": null,
+    "attachments": []
+  },
+  {
+    "id": "CMP-2026-004",
+    "title": "Microphone and Projector flickering in Audi-3 during lectures",
+    "category": "Academics",
+    "priority": "Medium",
+    "department": "Academic Infrastructure",
+    "location": "Auditorium 3, Academic Block C",
+    "studentName": "Neha Gupta",
+    "studentRoll": "2023IT045",
+    "studentEmail": "neha.gupta@college.edu",
+    "isAnonymous": false,
+    "isPublic": false,
+    "upvotes": 4,
+    "upvotedBy": ["2023IT045"],
+    "status": "Submitted",
+    "description": "The HDMI cable connector on the podium is loose causing the projector display to blink every 2 minutes. The wireless mic battery also drains within 15 minutes.",
+    "assignedTo": null,
+    "createdAt": "2026-10-16T06:30:00.000Z",
+    "updatedAt": "2026-10-16T06:30:00.000Z",
+    "timeline": [
+      {
+        "id": "t-1",
+        "timestamp": "2026-10-16T06:30:00.000Z",
+        "status": "Submitted",
+        "title": "Complaint Logged",
+        "note": "Awaiting initial review by AV dept.",
+        "by": "Neha Gupta"
+      }
+    ],
+    "comments": [],
+    "feedback": null,
+    "attachments": []
+  },
+  {
+    "id": "CMP-2026-005",
+    "title": "Street Lights not functioning near Girls Hostel walkway",
+    "category": "Security",
+    "priority": "Urgent",
+    "department": "Campus Security & Electrical",
+    "location": "Pathway between Gate 2 and Girls Hostel Block 1",
+    "studentName": "Kavita Rao",
+    "studentRoll": "2024CS089",
+    "studentEmail": "kavita.rao@college.edu",
+    "isAnonymous": false,
+    "isPublic": true,
+    "upvotes": 35,
+    "upvotedBy": ["2024CS089", "2024EE102"],
+    "status": "In Progress",
+    "description": "Three consecutive solar LED poles on the walkway are off. The pathway is pitch dark after 7:30 PM creating a serious safety risk for evening scholars returning from library.",
+    "assignedTo": {
+      "name": "Manish Tyagi (Security Supervisor)",
+      "phone": "+91 98989 11223"
+    },
+    "createdAt": "2026-10-15T19:00:00.000Z",
+    "updatedAt": "2026-10-15T21:00:00.000Z",
+    "timeline": [
+      {
+        "id": "t-1",
+        "timestamp": "2026-10-15T19:00:00.000Z",
+        "status": "Submitted",
+        "title": "Logged under Urgent Safety",
+        "note": "Safety alert generated automatically.",
+        "by": "Kavita Rao"
+      },
+      {
+        "id": "t-2",
+        "timestamp": "2026-10-15T21:00:00.000Z",
+        "status": "In Progress",
+        "title": "Security Patrolling Deployed & Electrician Called",
+        "note": "Guard stationed permanently on pathway tonight. Electrician scheduled to replace sensor today morning.",
+        "by": "Chief Proctor"
+      }
+    ],
+    "comments": [],
+    "feedback": null,
+    "attachments": []
+  }
+]
