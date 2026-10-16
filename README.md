@@ -4,6 +4,31 @@
 
 ---
 
+## 👥 Engineering Team & Academic Credits
+
+| Role | Details |
+| :--- | :--- |
+| **Institution** | **Arya College of Engineering & IT (ACEIT), Jaipur**<br>Affiliated to Rajasthan Technical University (RTU), Kota |
+| **Department** | **Department of Artificial Intelligence & Data Science** \| Session 2026-27 |
+| **Subject** | Major Project / Web Engineering Laboratory (B.Tech) |
+| **Project Guide** | **Er. Ram Babu Buri**, Assistant Professor, Dept. of AI & DS |
+
+### 🛠️ Team Members:
+- **Member 1 (Lead):** Jatin
+- **Member 2:** Manish
+- **Member 3:** Pradeep Kumar Meena
+- **Member 4:** Pradeep
+- **Member 5:** Kapil Beniwal
+
+---
+
+## 📊 Presentation & Viva Defense Resources
+
+- 📽️ **Project Presentation (PPTX):** [`College_Complaints_Portal_Presentation.pptx`](./College_Complaints_Portal_Presentation.pptx) *(Complete 12-slide dark-themed presentation with speaker notes)*
+- 📄 **Viva-Voce Q&A Guide (PDF):** [`College_Complaints_Portal_Viva_Questions_Answers.pdf`](./College_Complaints_Portal_Viva_Questions_Answers.pdf) *(Comprehensive 21 Q&A defense document)*
+
+---
+
 ## 🚀 How to Run the Project
 
 The application runs seamlessly with a unified full-stack architecture:
@@ -85,6 +110,8 @@ npm run dev
 
 ```
 college-complaints-portal/
+├── College_Complaints_Portal_Presentation.pptx   # Official 12-slide Project Defense PPT
+├── College_Complaints_Portal_Viva_Questions_Answers.pdf # Comprehensive Viva Q&A Guide
 ├── client/                     # React Frontend (Vite + Tailwind CSS)
 │   ├── src/
 │   │   ├── components/         # Navbar, ComplaintCard, Modals, AdminDashboard, NoticeBoard
