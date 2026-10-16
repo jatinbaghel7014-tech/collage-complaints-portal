@@ -1,95 +1,112 @@
 # 🎓 CampusSamadhan - College Grievance & Complaints Portal
 
-> एक आधुनिक, सम्पूर्ण और पारदर्शी **कॉलेज शिकायत और समाधान पोर्टल (College Grievance Redressal System)** जो UGC / AICTE नियमों के अनुरूप छात्रों, शिक्षकों और प्रशासन के बीच शिकायतों के त्वरित निवारण हेतु तैयार किया गया है।
+> A modern, comprehensive, and transparent **College Grievance Redressal System** built in compliance with UGC / AICTE guidelines to ensure rapid and accountable resolution of campus issues across students, faculty, and administration.
 
 ---
 
-## 🚀 वेबसाइट कैसे चलाएं (How to Run)
+## 🚀 How to Run the Project
 
-वेबसाइट अभी आपके कंप्यूटर पर **सफलतापूर्वक चल रही है (LIVE)**:
+The application runs seamlessly with a unified full-stack architecture:
 
-- **मुख्य वेबसाइट (Website URL):** [http://localhost:5000](http://localhost:5000)
+- **Web Application URL:** [http://localhost:5000](http://localhost:5000)
 - **API Health Check:** [http://localhost:5000/api/health](http://localhost:5000/api/health)
 
-### भविष्य में वेबसाइट दोबारा शुरू करने के लिए:
+### Commands to Start the Portal:
+
 ```bash
-# 1. प्रोडक्शन मोड (Single Server for both Frontend & Backend):
+# 1. Production Mode (Single-port server serving API & React frontend on port 5000):
 npm start
 
-# 2. डेवलपमेंट मोड (Hot-reloading with Vite + Express):
+# 2. Development Mode (Hot-reloading with Vite + Express concurrently):
 npm run dev
 ```
 
 ---
 
-## ✨ मुख्य सुविधाएं (Key Features)
+## ✨ Key Features & Functionality
 
-### 1. 🎓 छात्र पोर्टल (Student Portal)
-- **नई शिकायत दर्ज करें (Lodge Grievance):**
-  - श्रेणियां: हॉस्टल (Hostel), मेस व भोजन (Mess), अकादमिक (Academics), बुनियादी ढांचा व लैब्स (Infrastructure), स्वच्छता (Sanitation), लाइब्रेरी (Library), खाते व शुल्क (Accounts), सुरक्षा (Security), एंटी-रैगिंग (Anti-Ragging).
-  - प्राथमिकता का चयन: Low, Medium, High, Urgent.
-  - स्थान / रूम नंबर / ब्लॉक का विवरण.
-  - **गोपनीयता / गुमनाम विकल्प (Anonymous Filing):** छात्र अपनी पहचान छुपाकर भी शिकायत दर्ज कर सकते हैं।
-  - फोटो या दस्तावेज अटैचमेंट की सुविधा।
-- **शिकायत ट्रैकिंग (Real-time Status Tracking):**
-  - प्रत्येक शिकायत को एक यूनिक ट्रैकिंग कोड मिलता है (उदा. `CMP-2026-001`).
-  - 4-चरणीय लाइव प्रोग्रेस बार: `Submitted` ➔ `Under Review` ➔ `In Progress` ➔ `Resolved`.
-  - तारीख, समय और अधिकारी के नोट्स के साथ संपूर्ण एक्टिविटी टाइमलाइन।
-- **कैंपस कम्युनिटी फीड और अपवोट (Community Upvoting):**
-  - सामान्य सार्वजनिक समस्याओं (जैसे वाई-फाई खराब होना, वाटर कूलर लीकेज) को अन्य छात्र अपवोट कर सकते हैं, जिससे कॉलेज प्रशासन को समस्या की गंभीरता का तुरंत पता चलता है।
-- **संतुष्टि रेटिंग व समीक्षा (Feedback & Rating):**
-  - शिकायत हल होने पर छात्र 1 से 5 स्टार रेटिंग और अपनी टिप्पणी दे सकते हैं।
-
-### 2. 🛠️ विभाग व अधिकारी कंसोल (Department Officer Console)
-- विभिन्न विभागों (इस्टेट, आईटी, मेस कमेटी, प्रॉक्टर) के अधिकारियों के लिए अलग प्रबंधन दृश्य।
-- स्टेटस अपडेट करने की सुविधा (`In Progress`, `Resolved`, `Rejected`).
-- तकनीशियन या कर्मचारी को असाइन करना (उदा. प्लंबर, इलेक्ट्रीशियन का नाम व संपर्क)।
-- आधिकारिक समाधान टिप्पणी (Resolution Remark) जोड़ना।
-
-### 3. 🏛️ डीन व एडमिन डैशबोर्ड (Admin & Dean Analytics)
-- मुख्य संकेतक (KPIs): कुल शिकायतें, लंबित (Pending), प्रगति पर (In Progress), हल की गई (Resolved), और छात्र संतुष्टि स्कोर (Star Rating)।
-- डोमेन वार शिकायत वितरण बार और चार्ट्स।
-- **CSV रिपोर्ट डाउनलोड (Export to CSV):** एक क्लिक में सभी शिकायतों की एक्सेल/सीएसवी रिपोर्ट डाउनलोड करें।
-- त्वरित खोज और बहु-स्तरीय फ़िल्टर (श्रेणी, प्राथमिकता, स्थिति)।
-
-### 4. 📢 नोटिस बोर्ड व सर्कुलर (Campus Bulletin)
-- कॉलेज में रखरखाव, पानी/बिजली कटौती, या नियमों की आधिकारिक सूचनाएं।
-- एडमिन द्वारा नए नोटिस प्रकाशित करने की सुविधा।
-
-### 5. 🚨 24x7 इमरजेंसी एसओएस (Emergency Support & Anti-Ragging Cell)
-- एंटी-रैगिंग टोल-फ्री हेल्पलाइन (1800-180-5522).
-- चीफ प्रॉक्टर व सुरक्षा नियंत्रण कक्ष के सीधे नंबर।
-- महिला शिकायत निवारण प्रकोष्ठ (ICC) और कैंपस एम्बुलेंस हेल्पलाइन।
-- एक क्लिक में नंबर कॉपी करने व सीधे कॉल करने की सुविधा।
+### 1. 🎓 Student Portal
+- **Lodge Grievances:**
+  - **Categories:** Hostel, Mess & Food Quality, Academics & Faculty, Infrastructure & Labs, Sanitation, Library, Accounts & Fees, Security & Discipline, Anti-Ragging, and General.
+  - **Priority Levels:** Low, Medium, High, and Urgent (Safety/Emergency).
+  - Specific location details (Block, Room No, Floor, Lab).
+  - **Confidential & Anonymous Filing:** Students can lodge complaints anonymously (`isAnonymous: true`) to protect their identity.
+  - **File Attachments:** Upload photos and supporting documents (up to 10MB).
+- **Real-Time Status & Lifecycle Tracking:**
+  - Each grievance receives a unique tracking code (e.g., `CMP-2026-001`).
+  - Interactive 4-stage visual progress stepper: `Submitted` ➔ `Under Review` ➔ `In Progress` ➔ `Resolved`.
+  - Immutable activity history and timeline with timestamps, assigned officers, and resolution notes.
+- **Community Upvoting & Feed:**
+  - Students can upvote (`+1`) common campus issues (e.g., Wi-Fi router malfunction, water cooler leaks) to escalate priority and prevent duplicate complaints.
+- **Student Satisfaction Rating:**
+  - Once marked as "Resolved", students can submit a 1 to 5-star rating with feedback to measure service quality.
 
 ---
 
-## 🛠️ तकनीकी संरचना (Tech Stack)
+### 2. 🛠️ Department Officer Console
+- Dedicated role view for department officers (Estate, Maintenance, IT, Mess Committee, Proctorial Board).
+- Direct status transitions (`In Progress`, `Resolved`, `Rejected`).
+- Assign technicians and field workers (electricians, plumbers, network engineers) with direct contact details.
+- Record official corrective action remarks visible to the student.
+
+---
+
+### 3. 🏛️ Admin & Dean Analytics Dashboard
+- **Key Performance Indicators (KPIs):** Total Grievances, Action Required (Pending), In Progress, Successfully Resolved, and Student Satisfaction Rating.
+- **Domain Distribution:** Real-time visual progress bars breaking down complaints across departments.
+- **Export to CSV Report:** Download audit-ready Excel/CSV reports with a single click.
+- Multi-dimensional search and filtering (Ticket ID, student, keyword, status, priority, category).
+
+---
+
+### 4. 📢 Campus Notice Board & Circulars
+- Official college announcements regarding water/power maintenance schedules, internet upgrades, and campus advisories.
+- Publishing panel for administrators to broadcast circulars.
+
+---
+
+### 5. 🚨 24x7 Emergency SOS & Anti-Ragging Cell
+- Toll-free 24x7 Anti-Ragging Helpline (`1800-180-5522`).
+- Direct contacts for Chief Proctor Office, Campus Security Control Room, Internal Complaints Committee (ICC for Women Safety), and Medical Ambulance.
+- One-click number copy and instant call triggers.
+
+---
+
+## 🛠️ Technology Stack
 
 - **Frontend:** React 18, Vite, Tailwind CSS, Lucide Icons
-- **Backend:** Node.js, Express.js, Multer (फ़ाइल अपलोड्स)
-- **Database/Store:** JSON Data Store (`server/data/complaints.json`, `server/data/notices.json`) - जीरो कॉन्फ़िगरेशन, डेटा सुरक्षित और हमेशा उपलब्ध।
+- **Backend:** Node.js, Express.js, Multer (File Upload Handling)
+- **Data Architecture:** Persistent JSON-based data store (`server/data/complaints.json`, `server/data/notices.json`) with atomic operations — zero external dependencies, robust and easily portable to MongoDB/PostgreSQL via REST abstraction.
+- **Styling:** Tailwind CSS (Utility-First, Responsive Design, Custom Glassmorphism UI)
 
 ---
 
-## 📂 फ़ोल्डर संरचना (Folder Structure)
+## 📂 Project Directory Structure
 
 ```
-college complaints portal/
-├── client/                     # रिएक्ट फ्रंटएंड (Vite + Tailwind)
+college-complaints-portal/
+├── client/                     # React Frontend (Vite + Tailwind CSS)
 │   ├── src/
-│   │   ├── components/         # Navbar, ComplaintCard, Modals, AdminDashboard
-│   │   ├── constants.js        # श्रेणियां, रंग और स्थितियां
-│   │   ├── App.jsx             # मुख्य ऍप्लिकेशन और स्टेट
+│   │   ├── components/         # Navbar, ComplaintCard, Modals, AdminDashboard, NoticeBoard
+│   │   ├── constants.js        # Color schemes, categories, and status mappings
+│   │   ├── App.jsx             # Main Application Container & State Management
 │   │   └── main.jsx
 │   ├── index.html
 │   └── vite.config.js
-├── server/                     # एक्सप्रेस बैकएंड API
+├── server/                     # Express REST API
 │   ├── data/
-│   │   ├── complaints.json     # सभी शिकायतों का डेटा
-│   │   └── notices.json        # सर्कुलर और नोटिस
-│   ├── uploads/                # छात्रों द्वारा अपलोड की गई फ़ाइलें
-│   └── server.js               # REST API सर्वर
+│   │   ├── complaints.json     # Complaints persistent store
+│   │   └── notices.json        # Notice board announcements
+│   ├── uploads/                # Student file attachments
+│   └── server.js               # REST API Server & static client host
 ├── package.json
 └── README.md
 ```
+
+---
+
+## 📜 Compliance & Standards
+
+- Adheres to **UGC (Grievance Redressal Regulations)** guidelines.
+- Complies with **AICTE Mandate** for Student Grievance Redressal Committees (SGRC).
+- Confidential reporting compliant with the **National Anti-Ragging Monitoring System**.
