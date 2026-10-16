@@ -89,7 +89,7 @@ export default function Navbar({
             <div>
               <div className="flex items-center gap-2">
                 <h1 className="text-lg font-bold text-slate-900 leading-tight">
-                  Campus<span className="text-blue-600">Samadhan</span>
+                  College<span className="text-blue-600">Complaints</span> Portal
                 </h1>
                 <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 bg-blue-100 text-blue-800 rounded">
                   v2.0

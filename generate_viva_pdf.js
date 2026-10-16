@@ -26,11 +26,11 @@ function addHeader() {
   doc.rect(45, 45, 5, 75).fill(PRIMARY);
   
   doc.fontSize(16).fillColor(PRIMARY).font('Helvetica-Bold')
-     .text('CAMPUS SAMADHAN - COLLEGE GRIEVANCE PORTAL', 60, 55);
-  doc.fontSize(10).fillColor(SECONDARY).font('Helvetica-Bold')
+     .text('COLLEGE COMPLAINTS PORTAL', 60, 55);
+  doc.fontSize(9.5).fillColor(SECONDARY).font('Helvetica-Bold')
      .text('Official Comprehensive Viva-Voce & Project Defense Guide (in English)', 60, 75);
   doc.fontSize(8.5).fillColor(TEXT_MUTED).font('Helvetica')
-     .text('Repository: github.com/jatinbaghel7014-tech/collage-complaints-portal | Stack: React, Vite, Node, Express', 60, 92);
+     .text('Team: Jatin (Lead), Manish, Pradeep Kumar Meena, Pradeep, Kapil Beniwal | ACEIT, Jaipur', 60, 92);
   
   doc.y = 135;
 }
@@ -88,8 +88,8 @@ addSectionTitle('Section 1: Project Overview & Objectives');
 
 addQA(
   1,
-  'What is the core objective of the CampusSamadhan project?',
-  'CampusSamadhan is a centralized full-stack College Grievance Redressal and Maintenance Management web portal. Its primary objective is to streamline, digitize, and monitor student complaints regarding hostel amenities, academics, mess cleanliness, IT network, security, and anti-ragging in compliance with UGC/AICTE grievance redressal norms.',
+  'What is the core objective of the College Complaints Portal project?',
+  'The College Complaints Portal is a centralized full-stack digital grievance redressal and campus maintenance management platform. Its primary objective is to streamline, digitize, and monitor student complaints regarding hostel amenities, academics, mess cleanliness, IT network, security, and anti-ragging in compliance with UGC/AICTE grievance redressal norms.',
   [
     'Eliminates opaque manual paper-based grievance submission.',
     'Provides transparent 4-stage real-time tracking from submission to resolution.',
@@ -281,7 +281,7 @@ for (let i = 0; i < totalPages; i++) {
   doc.switchToPage(i);
   doc.fontSize(8).fillColor(TEXT_MUTED).font('Helvetica')
      .text(
-       `CampusSamadhan Viva-Voce Defense Guide | Page ${i + 1} of ${totalPages}`,
+       `College Complaints Portal Viva-Voce Defense Guide | Page ${i + 1} of ${totalPages}`,
        45,
        795,
        { align: 'center', width: 505 }

@@ -1,6 +1,6 @@
-# 🎓 CampusSamadhan - College Grievance & Complaints Portal
+# 🎓 College Complaints Portal
 
-> A modern, comprehensive, and transparent **College Grievance Redressal System** built in compliance with UGC / AICTE guidelines to ensure rapid and accountable resolution of campus issues across students, faculty, and administration.
+> A modern, comprehensive, and transparent **College Complaints and Grievance Redressal System** built in compliance with UGC / AICTE guidelines to ensure rapid and accountable resolution of campus issues across students, faculty, and administration.
 
 ---
 

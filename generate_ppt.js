@@ -16,7 +16,7 @@ const C_GREEN = '34D399';     // Emerald
 const C_RED = 'F87171';       // Rose/Red
 
 // Helper to add consistent slide background & footer
-function addSlideHeader(slide, title, category = 'CAMPUSSAMADHAN | COLLEGE COMPLAINTS PORTAL') {
+function addSlideHeader(slide, title, category = 'COLLEGE COMPLAINTS PORTAL | GRIEVANCE SYSTEM') {
   slide.background = { color: C_BG };
   
   // Category tag
@@ -91,12 +91,12 @@ s1.addShape(pres.ShapeType.rect, {
 });
 
 // Title & Subtitle
-s1.addText('CampusSamadhan', {
+s1.addText('College Complaints Portal', {
   x: 1.1,
   y: 0.5,
-  w: 10.5,
+  w: 11.0,
   h: 0.8,
-  fontSize: 40,
+  fontSize: 38,
   fontFace: 'Arial',
   color: C_WHITE,
   bold: true
@@ -296,7 +296,7 @@ cardsS2.forEach((c, idx) => {
   });
 });
 
-s2.addNotes('Explain the legal and institutional motivation behind CampusSamadhan: mandatory compliance with UGC/AICTE regulations, speeding up maintenance resolution, and safeguarding student privacy.');
+s2.addNotes('Explain the legal and institutional motivation behind College Complaints Portal: mandatory compliance with UGC/AICTE regulations, speeding up maintenance resolution, and safeguarding student privacy.');
 
 // ==========================================
 // SLIDE 3: PROBLEM STATEMENT & CHALLENGES
@@ -793,7 +793,7 @@ s9.addText('🚨  Immediate Safety & Anti-Ragging Support Protocol', {
 });
 
 s9.addText(
-  'In compliance with statutory Supreme Court of India & UGC mandates, CampusSamadhan features a dedicated high-priority Emergency SOS system. Students facing immediate danger, ragging, or harassment can trigger an instant alert with zero latency.',
+  'In compliance with statutory Supreme Court of India & UGC mandates, College Complaints Portal features a dedicated high-priority Emergency SOS system. Students facing immediate danger, ragging, or harassment can trigger an instant alert with zero latency.',
   {
     x: 1.1,
     y: 2.25,

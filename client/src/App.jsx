@@ -381,7 +381,7 @@ export default function App() {
       <footer className="bg-white border-t border-slate-200 py-6 mt-12 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-center gap-2 font-semibold text-slate-700">
-            <span>CampusSamadhan Portal</span>
+            <span>College Complaints Portal</span>
             <span>&bull;</span>
             <span className="font-normal text-slate-500">National Institute Grievance & Redressal Cell</span>
           </div>
